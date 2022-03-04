@@ -40,30 +40,23 @@ Please follow instructions on how to install [ROS Foxy](https://docs.ros.org/en/
 
 ### B. Installation
 
-TODO
-
-<!-- 1. 
-2. Clone the repository and its dependencies in the src directory of the workspace where the ros_roar_streamer was installed.
+1. Clone the repository and its dependencies.
     ```bash
-    git clone https://github.com/amansrf/roar_transforms.git
+    git clone --recurse-submodules https://github.com/amansrf/roar_ros.git
     ```
-3. Install required ROS packages from inside the workspace root.
+2. Install required ROS packages from inside the roar_ros folder.
     ```bash
+    cd roar_ros
     sudo apt-get update
     sudo rosdep init
     rosdep update
     rosdep install -i --from-path src --rosdistro foxy -y
     ```
-4. Install required python packages 
+3. Build all the packages and source the workspace
     ```bash
-    pip install -r <Workspace Directory Here>/src/roar_transforms/requirements.txt
-    ```
-5. Build all the packages and source the workspace
-    ```bash
-    cd <Workspace Directory Here>
     colcon build --symlink-install
-    source <Workspace Directory Here>/install/setup.bash
-    ``` -->
+    source <path_to_roar_ros>/install/setup.bash
+    ```
 
 <!-- LICENSE -->
 <!-- ## License
@@ -72,17 +65,22 @@ Distributed under the MIT License. See `LICENSE` for more information. -->
 <!-- USAGE -->
 ## Usage
 
-TODO
-<!-- 1. Launch the iphone app and calibrate it with world centre.
-2. Follow instructions in the ros_roar_streamer package usage and then run the state_streamer node:
+1. Launch the iphone app and calibrate it with world centre.
+2. Change the ip address of the iphone in the config.py file located at: ```roar_ros/src/ros_roar_streamer/ros_roar_streamer/config.py```
+3. Run the ros_roar_streamer state_streamer node:
     ```bash
     ros2 run ros_roar_streamer state_streamer
     ```
-3. Run this package in a new terminal
+4. Run the transforms package in a new terminal:
     ```bash
-    source <Workspace Directory Here>/install/setup.bash
+    source <path_to_roar_ros>/install/setup.bash
     ros2 launch roar_transforms roar_tf.launch.py
-    ``` -->
+    ```
+5. Run the roar_bot_description package in a new terminal:
+    ```bash
+    source <path_to_roar_ros>/install/setup.bash
+    ros2 launch roar_bot_description display.launch.py
+    ```
 
 <!-- CONTACT -->
 ## Contact
