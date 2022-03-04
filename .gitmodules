@@ -1,0 +1,10 @@
+[submodule "src/ros_roar_streamer"]
+	path = src/ros_roar_streamer
+	url = https://github.com/amansrf/ros_roar_streamer.git
+	branch = ros2-foxy
+[submodule "src/roar_bot_description"]
+	path = src/roar_bot_description
+	url = https://github.com/amansrf/roar_bot_description.git
+[submodule "src/roar_transforms"]
+	path = src/roar_transforms
+	url = https://github.com/amansrf/roar_transforms.git
