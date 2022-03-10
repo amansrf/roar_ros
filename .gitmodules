@@ -8,3 +8,12 @@
 [submodule "src/roar_transforms"]
 	path = src/roar_transforms
 	url = https://github.com/amansrf/roar_transforms.git
+[submodule "src/deep_sort_ros2"]
+	path = src/deep_sort_ros2
+	url = https://github.com/wuxiaohua1011/deep_sort_ros2
+[submodule "src/cone_detector_ros2"]
+	path = src/cone_detector_ros2
+	url = https://github.com/wuxiaohua1011/cone_detector_ros2
+[submodule "src/roar_carla_ros2"]
+	path = src/roar_carla_ros2
+	url = https://github.com/wuxiaohua1011/roar_carla_ros2
