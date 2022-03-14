@@ -20,3 +20,6 @@
 [submodule "src/roar_ground_plane_detector"]
 	path = src/roar_ground_plane_detector
 	url = https://github.com/wuxiaohua1011/roar_ground_plane_detector
+[submodule "src/camera_lidar_fusion"]
+	path = src/camera_lidar_fusion
+	url = https://github.com/wuxiaohua1011/camera_lidar_fusion
