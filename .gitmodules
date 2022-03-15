@@ -23,3 +23,6 @@
 [submodule "src/camera_lidar_fusion"]
 	path = src/camera_lidar_fusion
 	url = https://github.com/wuxiaohua1011/camera_lidar_fusion
+[submodule "src/pcd_bang_bang"]
+	path = src/pcd_bang_bang
+	url = https://github.com/wuxiaohua1011/pcd_bang_bang
