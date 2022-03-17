@@ -1,0 +1,17 @@
+digraph G {
+"base_link" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"iphone_mount_link" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"iphone_link" -> "depth_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom_iphone" -> "iphone_link"[label=" Broadcaster: default_authority\nAverage rate: 50.188\nBuffer length: 5.001\nMost recent transform: 1647470033.97805\nOldest transform: 1647470028.976902\n"];
+"iphone_link" -> "iphone_mount_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"iphone_link" -> "rgb_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "drivewhl_front_l_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1647470033.917666\nOldest transform: 1647470029.017651\n"];
+"base_link" -> "drivewhl_front_r_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1647470033.917666\nOldest transform: 1647470029.017651\n"];
+"base_link" -> "drivewhl_rear_l_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1647470033.917666\nOldest transform: 1647470029.017651\n"];
+"base_link" -> "drivewhl_rear_r_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1647470033.917666\nOldest transform: 1647470029.017651\n"];
+"odom" -> "odom_iphone"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1647470033.9915922"[ shape=plaintext ] ;
+}->"odom";
+}
