@@ -26,3 +26,6 @@
 [submodule "src/pcd_bang_bang"]
 	path = src/pcd_bang_bang
 	url = https://github.com/wuxiaohua1011/pcd_bang_bang
+[submodule "src/roar_waypoint"]
+	path = src/roar_waypoint
+	url = https://github.com/wuxiaohua1011/roar_waypoint
