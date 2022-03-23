@@ -29,3 +29,6 @@
 [submodule "src/roar_waypoint"]
 	path = src/roar_waypoint
 	url = https://github.com/wuxiaohua1011/roar_waypoint
+[submodule "src/livox_ros2_driver"]
+	path = src/livox_ros2_driver
+	url = https://github.com/wuxiaohua1011/livox_ros2_driver.git
