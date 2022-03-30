@@ -8,3 +8,30 @@
 [submodule "src/roar_transforms"]
 	path = src/roar_transforms
 	url = https://github.com/amansrf/roar_transforms.git
+[submodule "src/deep_sort_ros2"]
+	path = src/deep_sort_ros2
+	url = https://github.com/wuxiaohua1011/deep_sort_ros2
+[submodule "src/cone_detector_ros2"]
+	path = src/cone_detector_ros2
+	url = https://github.com/wuxiaohua1011/cone_detector_ros2
+[submodule "src/roar_carla_ros2"]
+	path = src/roar_carla_ros2
+	url = https://github.com/wuxiaohua1011/roar_carla_ros2
+[submodule "src/roar_ground_plane_detector"]
+	path = src/roar_ground_plane_detector
+	url = https://github.com/wuxiaohua1011/roar_ground_plane_detector
+[submodule "src/camera_lidar_fusion"]
+	path = src/camera_lidar_fusion
+	url = https://github.com/wuxiaohua1011/camera_lidar_fusion
+[submodule "src/roar_waypoint"]
+	path = src/roar_waypoint
+	url = https://github.com/wuxiaohua1011/roar_waypoint
+[submodule "src/indy_bot_urdf"]
+	path = src/indy_bot_urdf
+	url = https://github.com/wuxiaohua1011/indy_bot_urdf
+[submodule "src/livox_ros2_driver"]
+	path = src/livox_ros2_driver
+	url = https://github.com/wuxiaohua1011/livox_ros2_driver
+[submodule "src/pcd_bang_bang"]
+	path = src/pcd_bang_bang
+	url = https://github.com/wuxiaohua1011/pcd_bang_bang
