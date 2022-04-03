@@ -35,3 +35,6 @@
 [submodule "src/pcd_bang_bang"]
 	path = src/pcd_bang_bang
 	url = https://github.com/wuxiaohua1011/pcd_bang_bang
+[submodule "src/lane_to_bev_roar"]
+	path = src/lane_to_bev_roar
+	url = https://github.com/amansrf/lane_to_bev_roar.git
