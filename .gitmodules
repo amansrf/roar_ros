@@ -38,3 +38,6 @@
 [submodule "src/lane_to_bev_roar"]
 	path = src/lane_to_bev_roar
 	url = https://github.com/amansrf/lane_to_bev_roar.git
+[submodule "src/zed-ros2-wrapper"]
+	path = src/zed-ros2-wrapper
+	url = https://github.com/wuxiaohua1011/zed-ros2-wrapper
